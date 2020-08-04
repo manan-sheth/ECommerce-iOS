@@ -1,0 +1,240 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": " Casuals",
+      "products": [
+        {
+          "id": 1,
+          "name": "Nike Sneakers",
+          "date_added": "2016-12-09T11:16:11.000Z",
+          "variants": [
+            {
+              "id": 1,
+              "color": "Blue",
+              "size": 42,
+              "price": 1000
+            },
+            {
+              "id": 2,
+              "color": "Red",
+              "size": 42,
+              "price": 1000
+            },
+            {
+              "id": 3,
+              "color": "Blue",
+              "size": 44,
+              "price": 1200
+            },
+            {
+              "id": 4,
+              "color": "Red",
+              "size": 44,
+              "price": 1200
+            }
+          ],
+          "tax": {
+            "name": "VAT",
+            "value": 12.5
+          }
+        },
+        {
+          "id": 2,
+          "name": "Adidas Running Shoes",
+          "date_added": "2016-11-05T11:16:11.000Z",
+          "variants": [
+            {
+              "id": 5,
+              "color": "White",
+              "size": 40,
+              "price": 2000
+            },
+            {
+              "id": 6,
+              "color": "Black",
+              "size": 40,
+              "price": 2000
+            },
+            {
+              "id": 7,
+              "color": "White",
+              "size": 44,
+              "price": 2200
+            },
+            {
+              "id": 8,
+              "color": "Red",
+              "size": 44,
+              "price": 2200
+            }
+          ],
+          "tax": {
+            "name": "VAT4",
+            "value": 4
+          }
+        }
+      ],
+      "child_categories": []
+    },
+    {
+      "id": 9,
+      "name": "Formals",
+      "products": [
+        {
+          "id": 9,
+          "name": "Bata Lace up Shoes",
+          "date_added": "2016-12-22T11:16:11.000Z",
+          "variants": [
+            {
+              "id": 33,
+              "color": "Black",
+              "size": 42,
+              "price": 2000
+            },
+            {
+              "id": 34,
+              "color": "Brown",
+              "size": 42,
+              "price": 2000
+            },
+            {
+              "id": 35,
+              "color": "Black",
+              "size": 44,
+              "price": 1800
+            },
+            {
+              "id": 36,
+              "color": "Brown",
+              "size": 44,
+              "price": 1800
+            }
+          ],
+          "tax": {
+            "name": "VAT",
+            "value": 12.5
+          }
+        },
+        {
+          "id": 10,
+          "name": "Franco Leather",
+          "date_added": "2017-01-20T11:16:11.000Z",
+          "variants": [
+            {
+              "id": 37,
+              "color": "Black",
+              "size": 40,
+              "price": 2000
+            },
+            {
+              "id": 38,
+              "color": "Brown",
+              "size": 40,
+              "price": 2000
+            },
+            {
+              "id": 39,
+              "color": "Black",
+              "size": 44,
+              "price": 2200
+            },
+            {
+              "id": 40,
+              "color": "Brown",
+              "size": 44,
+              "price": 2200
+            }
+          ],
+          "tax": {
+            "name": "VAT4",
+            "value": 4
+          }
+        }
+      ],
+      "child_categories": []
+    },
+    {
+      "id": 3,
+      "name": "Mens Wear",
+      "products": [],
+      "child_categories": [
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Foot Wear",
+      "products": [],
+      "child_categories": [
+        1,
+        9
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "ranking": "Most Viewed Products",
+      "products": [
+        {
+          "id": 1,
+          "view_count": 56700
+        },
+        {
+          "id": 2,
+          "view_count": 60000
+        },
+        {
+          "id": 9,
+          "view_count": 78965
+        },
+        {
+          "id": 10,
+          "view_count": 23456
+        }
+      ]
+    },
+    {
+      "ranking": "Most OrdeRed Products",
+      "products": [
+        {
+          "id": 1,
+          "order_count": 5600
+        },
+        {
+          "id": 2,
+          "order_count": 4300
+        },
+        {
+          "id": 9,
+          "order_count": 9873
+        },
+        {
+          "id": 10,
+          "order_count": 2354
+        }
+      ]
+    },
+    {
+      "ranking": "Most ShaRed Products",
+      "products": [
+        {
+          "id": 1,
+          "shares": 1800
+        },
+        {
+          "id": 2,
+          "shares": 2600
+        },
+        {
+          "id": 9,
+          "shares": 3245
+        },
+        {
+          "id": 10,
+          "shares": 7654
+        }
+      ]
+    }
+  ]
+}
